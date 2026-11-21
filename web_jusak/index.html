@@ -55,7 +55,7 @@
         .hero {
             background: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url('https://unsplash.com') center/cover no-repeat;
             height: 100px;
-            display: flex;
+            display: auto;
             flex-direction: column;
             justify-content: center;
             align-items: center;
@@ -64,7 +64,7 @@
             padding: 0 20px;
         }
         .hero h1 {
-            display: flex;
+            display: auto;
             font-size: 3rem;
             margin-bottom: 15px;
         }
@@ -72,7 +72,7 @@
             font-size: 1.2rem;
             max-width: 650px;
             margin-bottom: 25px;
-            diplay: flex;
+            diplay: auto;
         }
         .btn {
             background-color: #ff6b35;
@@ -110,73 +110,15 @@
             padding: 50px 5%;
             max-width: 1200px;
             margin: auto;
+            display: auto;
         }
         .section-title {
             text-align: center;
             font-size: 2.2rem;
             margin-bottom: 40px;
             color: #008080;
-        }
-
-        /* Galeri Video */
-        .video-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-            gap: 25px;
-        }
-        .video-card {
-            background: #ffffff;
-            border-radius: 12px;
-            overflow: hidden;
-            box-shadow: 0 4px 15px rgba(0,0,0,0.08);
-        }
-        .video-card iframe {
-            width: 100%;
-            height: 200px;
-            border: none;
-        }
-        .video-info {
-            padding: 20px;
-        }
-        .video-info h3 {
-            margin-bottom: 10px;
-            font-size: 1.2rem;
-        }
-
-        /* Layanan Kerja Sama */
-        .services-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-            gap: 25px;
-        }
-        .service-card {
-            background: #ffffff;
-            padding: 30px;
-            border-radius: 12px;
-            text-align: center;
-            box-shadow: 0 4px 15px rgba(0,0,0,0.05);
-            border-top: 4px solid #008080;
-        }
-        .service-card h3 {
-            margin-bottom: 15px;
-            color: #2c3e50;
-        }
-
-        /* Bagian Kontak */
-        .contact {
-            background: #2c3e50;
-            color: #ffffff;
-            text-align: center;
-            padding: 60px 5%;
-        }
-        .contact h2 {
-            margin-bottom: 15px;
-            color: #ffd166;
-        }
-        .contact p {
-            margin-bottom: 25px;
-        }
-         whatsapp-float {
+            display: auto;
+        }         whatsapp-float {
             position: fixed;
             bottom: 25px;
             right: 25px;
@@ -217,7 +159,7 @@
      <div style="text-align: center; padding: 30px 20px; font-size: large; font-style: inherit;">
         <h1>SELAMAT DATANG DI WEBSITE SAYA</h1>
         <img src="banner.jpg" alt="Foto Jusak Tampemawa" 
-             style="display: auto; margin: 20px auto; width: 1200px; height: 300px; object-fit: cover; box-shadow: 0 4px 12px rgba(0,0,0,0.2);">
+             style="display: auto; margin: 20px auto; width: 1200px auto; height: 300px auto; object-fit: cover; box-shadow: 0 4px 12px rgba(0,0,0,0.2);">
     </div>
     <nav>
         <div class="logo">JUSAK TAMPEMAWA TV</div>
